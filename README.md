@@ -1,4 +1,4 @@
-# dice
+# DiceRoller
 
 A new Flutter project.
 
