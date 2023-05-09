@@ -1,6 +1,6 @@
 # DiceRoller
 
-A new Flutter project.
+A new Flutter project,made while learning the  basics of Flutter with Dart programming language.Contains a button to roll the dice that is made using widgets.
 
 ## Getting Started
 
