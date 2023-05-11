@@ -1,9 +1,19 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(
+    MaterialApp(
       home: Scaffold(
-    body: Container(
+        body: GradientContainer(),
+      ),
+    ),
+  );
+}
+
+class GradientContainer extends StatelessWidget {
+  @override
+  Widget build(context) {
+    return Container(
       decoration: const BoxDecoration(
         gradient: LinearGradient(
           colors: [
@@ -15,8 +25,12 @@ void main() {
         ),
       ),
       child: const Center(
-        child: Text('Hello World!!'),
+        child: Text(
+          'Hello World!!',
+          style: TextStyle(
+              fontSize: 32, color: Color.fromARGB(255, 255, 255, 255)),
+        ),
       ),
-    ),
-  )));
+    );
+  }
 }
