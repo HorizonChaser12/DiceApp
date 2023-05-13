@@ -1,8 +1,8 @@
 import 'package:dice/dice_roller.dart';
 import 'package:flutter/material.dart';
 
-const startAlignment = Alignment.topLeft;
-const endAlignmnet = Alignment.bottomRight;
+const startAlignment = Alignment.topCenter;
+const endAlignmnet = Alignment.bottomCenter;
 
 //using list of colors approach
 // class GradientContainer extends StatelessWidget {

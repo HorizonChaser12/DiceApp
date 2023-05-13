@@ -38,6 +38,7 @@ class _DiceRollerState extends State<DiceRoller> {
           onPressed: rollDice,
           style: ElevatedButton.styleFrom(
               // padding: const EdgeInsets.only(top: 20),
+              backgroundColor: const Color.fromARGB(255, 78, 71, 30),
               foregroundColor: const Color.fromARGB(255, 255, 0, 0),
               textStyle: const TextStyle(fontSize: 25)),
           child: const styledText("Roll the Dice!"),
